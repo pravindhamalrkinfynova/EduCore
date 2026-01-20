@@ -26,7 +26,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot" element={<ForgotPassword />} />
-        <Route path="/otp" element={<Otp />} />
+        {/* <Route path="/otp" element={<Otp />} /> */}
         <Route path="/reset" element={<ResetPassword />} />
         <Route path="/pipeline" element={<AdmissionPipeline />} />
 
